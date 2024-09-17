@@ -1,0 +1,739 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  font-size: 10px;
+}
+a {
+  color: #00B7FF;
+}
+
+li.post.topic-post {
+  line-height: 14px;
+}
+
+#username {
+  width: 100%;
+}
+
+.container {
+  background: white;
+  width: 100%;
+}
+
+img {
+  /*	    max-width:300px;
+      max-height:300px;
+      width: expression(this.width > 300 ? 300: true);
+      height: expression(this.height > 300 ? 300: true);*/
+}
+
+.postcontent {
+  overflow: hidden;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.toggleexpand {
+  display: none;
+}
+
+.collapsed {
+  max-height: 322px;
+  overflow: hidden;
+}
+
+.postinfo {
+  font-size: smaller;
+  padding-left: 20px;
+  color: #AAA;
+  display: none;
+}
+
+.postinfo a {
+  color: #AAA;
+  text-decoration: none;
+}
+
+.username {
+  font-weight: bold;
+}
+
+#topic-header {
+  padding-bottom: 20px;
+}
+
+#newTopic {
+  float: right;
+}
+
+#newTopicArea {
+  display: none;
+}
+
+#inReplyToText {
+  display: inline;
+}
+
+.inReplyToArea {
+  padding-left: 5px;
+  font-size: smaller;
+  padding-left: 20px;
+  color: #AAA;
+}
+
+#data,
+#topic-data {
+  width: 100%;
+  height: 25px;
+}
+
+#clearInReplyTo {
+  display: none;
+  float: right;
+}
+
+#userLabel,
+#topic-userLabel {
+  font-weight: bold;
+  display: inline-block;
+}
+
+#conversation-container ul,
+#topic-conversation-container ul,
+#topic-header ul {
+  border-bottom: solid 1px #EEE;
+
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  /*margin-bottom:10px;*/
+}
+
+#conversation-container ul .post-group,
+#topic-conversation-container ul .post-group {
+  border: solid 0px;
+  margin-left: 20px;
+  background-color: #F8F8F8;
+}
+
+.post-group {
+  max-height: 300px;
+  overflow: auto;
+}
+
+li {
+  clear: both;
+}
+
+.post:after {
+  content: '';
+  clear: both;
+  visibility: hidden;
+}
+
+/*.post-avatar { float: left; margin-right: 10px; margin-bottom:10px; }*/
+.post-avatar {
+  margin-right: 5px;
+}
+
+.post-actions {
+  float: right;
+  margin-left: 10px;
+  max-width: 100px;
+  text-align: right;
+}
+
+p {
+  overflow: hidden
+}
+
+.btn {
+  margin-bottom: 2px;
+}
+
+figure {
+  margin: 2px
+}
+
+/*
+.modal { 
+  position: fixed; 
+  top: 3%; 
+  right: 3%; 
+  left: 3%; 
+  width: auto; 
+  margin: 0; 
+}
+*/
+.modal-body {
+  height: 60%;
+}
+
+.modal-body {
+  max-height: 350px;
+  padding: 15px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#gamedivarea {
+  position: relative;
+}
+
+#gameDiv {
+  background-color: white;
+  display: none;
+  position: absolute;
+  left: 50%;
+  width: 570px;
+  margin-left: -360px;
+  top: 20px;
+  height: 250px;
+  border: solid 10px black;
+}
+
+.bit {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/bits.png');
+  -moz-background-size: 320 32px;
+  background-size: 320px 32px;
+  border: solid white 2px;
+}
+
+.bit1 {
+  background-position: -0px -0px;
+}
+
+.bit2 {
+  background-position: -32px -0px;
+}
+
+.bit3 {
+  background-position: -64px -0px;
+}
+
+.bit4 {
+  background-position: -96px -0px;
+}
+
+.bit5 {
+  background-position: -128px -0px;
+}
+
+.bit6 {
+  background-position: -160px -0px;
+}
+
+.bit7 {
+  background-position: -192px -0px;
+}
+
+.bit8 {
+  background-position: -224px -0px;
+}
+
+.bit9 {
+  background-position: -256px -0px;
+}
+
+.pixel {
+  background-position: -288px -0px;
+}
+
+.bit>span {
+  background-color: white;
+}
+
+/*
+.block{
+display: inline-block; width: 32px; height: 32px; background-image: url('media/blocks.png');
+-moz-background-size: 32px 128px;
+background-size: 32px 128px;
+border:solid white 2px;
+}
+.block1{
+background-position: -0px -0px;
+}
+.block2{
+background-position: -0px -32px;
+}
+.block3{
+background-position: -0px -64px;
+}
+.block4{
+background-position: -0px -96px;
+}
+.block > span{
+background-color:white;
+}
+*/
+.hand {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/hand.png');
+  -moz-background-size: 32px 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+  float: left;
+}
+
+.move {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/move.png');
+  -moz-background-size: 32px 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+  float: left;
+}
+
+.sign {
+  display: inline-block;
+  width: 21px;
+  height: 32px;
+  background-image: url('media/sign.png');
+  -moz-background-size: 21px 32px;
+  background-size: 21px 32px;
+  border: solid white 2px;
+}
+
+.sign>span {
+  background-color: white;
+}
+
+.goomba {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/goomba.png');
+  -moz-background-size: 64 32px;
+  background-size: 64px 32px;
+  border: solid white 2px;
+}
+
+.goomba>span {
+  background-color: white;
+}
+
+.fish {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/fish.png');
+  -moz-background-size: 64 32px;
+  background-size: 64px 32px;
+  border: solid white 2px;
+}
+
+.fish>span {
+  background-color: white;
+}
+
+.ghost {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/ghost.png');
+  -moz-background-size: 32 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+}
+
+.ghost>span {
+  background-color: white;
+}
+
+.door {
+  display: inline-block;
+  width: 16px;
+  height: 32px;
+  background-image: url('media/door.png');
+  -moz-background-size: 80px 32px;
+  background-size: 80px 32px;
+  border: solid white 2px;
+  background-position: -0px -0px;
+}
+
+.door>span {
+  background-color: white;
+}
+
+.door1 {
+  background-position: -0px -0px;
+}
+
+.door2 {
+  background-position: -16px -0px;
+}
+
+.door3 {
+  background-position: -0px -0px;
+}
+
+.door3 {
+  background-position: -32px -0px;
+}
+
+.switchblock {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/switch.png');
+  -moz-background-size: 64px 32px;
+  background-size: 64px 32px;
+  border: solid white 2px;
+  background-position: -0px -0px;
+}
+
+.switchblock>span {
+  background-color: white;
+}
+
+.textitem {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: solid white 2px;
+  background-color: #DDD;
+}
+
+.textitem>span {
+  background-color: white;
+}
+
+.youtube {
+  display: inline-block;
+  width: 16px;
+  height: 32px;
+  background-image: url('media/remote.png');
+  -moz-background-size: 16px 32px;
+  background-size: 16px 32px;
+  border: solid white 2px;
+}
+
+.youtube>span {
+  background-color: white;
+}
+
+.coin {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/coin.png');
+  -moz-background-size: 32px 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+}
+
+.coin>span {
+  background-color: white;
+}
+
+.target {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/target.png');
+  -moz-background-size: 160 32px;
+  background-size: 160px 32px;
+  border: solid white 2px;
+}
+
+.target1 {
+  background-position: -0px -0px;
+}
+
+.target2 {
+  background-position: -32px -0px;
+}
+
+.target3 {
+  background-position: -64px -0px;
+}
+
+.target4 {
+  background-position: -96px -0px;
+}
+
+.target5 {
+  background-position: -128px -0px;
+}
+
+.target6 {
+  background-position: -160px -0px;
+}
+
+.target7 {
+  background-position: -192px -0px;
+}
+
+.target8 {
+  background-position: -224px -0px;
+}
+
+.target9 {
+  background-position: -256px -0px;
+}
+
+.bit>span {
+  background-color: white;
+}
+
+.lantern {
+  display: inline-block;
+  width: 24px;
+  height: 32px;
+  background-image: url('media/lantern.png');
+  -moz-background-size: 24px 32px;
+  background-size: 24px 32px;
+  border: solid white 2px;
+}
+
+.lantern>span {
+  background-color: white;
+}
+
+.platform {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/platform.png');
+  -moz-background-size: 32 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+}
+
+.platform>span {
+  background-color: white;
+}
+
+.spikeblock {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/spikeblock.png');
+  -moz-background-size: 32 32px;
+  background-size: 32px 32px;
+  border: solid white 2px;
+}
+
+.spikeblock>span {
+  background-color: white;
+}
+
+.custom {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  /* background-image: url('media/custom.png');*/
+  -moz-background-size: 32 64px;
+  background-size: 32px 64px;
+  border: solid white 2px;
+}
+
+.custom>span {
+  background-color: white;
+}
+
+#blockarea {
+  max-height: 220px;
+  overflow: scroll;
+}
+
+.animframes {
+  /*float:right;*/
+}
+
+.animframe {
+  display: block;
+  width: 32px;
+  height: 32px;
+  -moz-background-size: 32px 196px;
+  background-size: 32px 196px;
+  border: 0px;
+  border: solid #eee 1px;
+}
+
+.animframe.eraser {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url('media/blocks.png');
+  -moz-background-size: 32px 128px;
+  background-size: 32px 128px;
+  border: 0px;
+  background-position: -0px -96px;
+}
+
+.animframe.out {
+  background-image: url(media/building.png);
+}
+
+.animframe.in {
+  background-image: url(media/inside.png);
+}
+
+.animframe.set1 {
+  background-image: url(media/tiletemplate1.png);
+}
+
+.animframe.set2 {
+  background-image: url(media/tiletemplate2.png);
+}
+
+.animframe.set3 {
+  background-image: url(media/tiletemplate3.png);
+}
+
+.animframe.eraser {
+  background-image: url(media/blocks.png);
+}
+
+.setItemDefault {
+  -moz-background-size: 32px 64px;
+  background-size: 32px 64px;
+  background-image: url(media/custom.png);
+}
+
+.animframe1 {
+  background-position: -0px -0px;
+}
+
+.animframe2 {
+  background-position: -0px -32px;
+}
+
+.animframe3 {
+  background-position: -0px -64px;
+}
+
+.animframe4 {
+  background-position: -0px -96px;
+}
+
+.animframe5 {
+  background-position: -0px -128px;
+}
+
+.animframe6 {
+  background-position: -0px -160px;
+}
+
+.animframe>span {
+  background-color: white;
+}
+
+.animframe.out.animframe4 {
+  display: none;
+}
+
+.animframe.in.animframe4 {
+  display: none;
+}
+
+.framesave {
+  display: none;
+}
+
+.selected {
+  border: solid red 1px;
+}
+
+.frameset {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  -moz-background-size: 32px 196px;
+  background-size: 32px 196px;
+  border: 0px;
+  background-position: -0px -0px;
+  border: solid #eee 1px;
+}
+
+#youtube {
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+#canvasarea {
+  overflow: hidden;
+  position: relative;
+}
+
+.dirt {
+  color: brown;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.black {
+  font-weight: bold;
+}
+
+.white {}
+
+.cyan {
+  color: cyan;
+}
+
+.magenta {
+  color: magenta;
+}
+
+.yellow {
+  color: yellow;
+}
+
+table {
+  font-size: 12px;
+}
+
+.inventory {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inventory-actions {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.defaultbody {
+  display: inline-block;
+}
+
+.equips {
+  display: inline-block;
+}
+
+.equips>div {
+  display: inline-block;
+}
+
+#youtubeplayerarea{
+  text-align:right;
+}
+
+.warplink span{
+  float: right;
+}

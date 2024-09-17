@@ -1,0 +1,2394 @@
+[
+  {
+    "username": "Player",
+    "_id": "PLAYER1234",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e000001",
+    "inventory": {
+      "bit": {
+        "1": 96,
+        "2": 85,
+        "3": 50,
+        "4": 37,
+        "5": 9,
+        "6": 0,
+        "7": 22,
+        "8": 9,
+        "9": 15
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 14, "2": 4, "3": 3 },
+      "fish": { "1": 99 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 8 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 6 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABr0lEQVRYR+1Yy00DMRCdhTRAK9xoYdtAOVACEkeaQIg2IlEBN1pJA8DiN2hW41l/41VYkH1KNvbLzJt5z/YOz+PVdPt4oNS4uL4hN4/svJeHkYav97cJH1JjfziSm0d2Hp7/MQDhQtKtSgEkYoEeeFbFgSUaEVUBbLQKLq8JuYGQ0Ig1EebOVcAXEBICKgIAOdLnAiTRhFo42QdaMACrBtA85MLH3AFyth0mICJhm5b+nQFyfhCTuteJtSASFbcy/kFXIukuquTMgQCUglg+PACAPN2PtLuMx2AJXwCU+KOG7wCmjFLKVB80VeHjk+ju1Xdmrwox0eiIrL3PACWLtQolFQaoWWxBBveAxXTKmHemUxbLGjaUGADyjNk91rCtNwO0cMCGoiMoCdmmtAGAVTmw5SzhpL2MvQ9W6MTeB9Tkid0PfsS/ATl3P9iCH+jDNhrDnVYgsOCwcxeNhDtDDsCepb1O7ADEt9dqEvW+gFtqbizuTM1q/H2AVffGkjPRfzwnWo1ruVpOQq8IFnLOAWT9oBkgdQELvdFJpmCFBQ6qUjgPQPeDfk7EMa/VE78BVPrChEykfRsAAAAASUVORK5CYII=",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABn0lEQVRYR+2XvXHFIAzHYYXXpMkCucsU6e1RUrxBXpFR7D5T5C4LpEmTFRyEEZHFh4Bc7pw7UbyHDfyQ/kiArTmWjT2XHi02xIp7sbnSNN5aP+znp2dwnDlA0ILm2f8E0D07tQJcyAJAKBSV1qnK8P7EgJaAOLhQ8jMHwr4IgD4HIXMw/g6jsRhIoUM0gIe5CJA04IDEDZ8te7zHeOBhHDOKzMbTMbrILMqms2R1tp3uBwoYUiBsjINj/TBxFZZl2eZ59v1oPQZVy+w1yD+wQHKx6gL4XgOAuCJgmqaEsa6rgcEwwTAAqKIFuPbcBIwLDKS2M70ghr29PQwDro/vxt6/3A0DPp4/2wDXp4u5vX4Z+g8edVnAB3cB1AKntq5CXQM4/qVtq9bu74mDgP22LmVjKQfwUBIBPmlIHGASNQPUglTAbhF1FfYs0UgUNPjFhuIF9juSuyMMbkoB4HalBABLlytwzNOSWIAdagBsg74KUA1OFAfDmYQnbAAM3RP4F8shtWuJhZdvBVySr3cVkZ0RGkjGf63iDYWn/HmS6RtB/3vWJwHDfQAAAABJRU5ErkJggg=="
+    },
+    "username": "Francis",
+    "avatar": "Francis1294675276"
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e000002",
+    "inventory": {
+      "bit": {
+        "1": 0,
+        "2": 19,
+        "3": 50,
+        "4": 34,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "lantern": { "1": 1 },
+      "null": { "1": 5 },
+      "sign": { "1": 1 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 0 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABeklEQVRYhe2Y4dHCMAiGWcABukAXYAEH8FvDBRzAOZzG0eKPmkgJCRC8s/ddvONO2/IkkBeSCqdlTQAwZG/f7cuIvUEbYMG/YuvlJhp9pglYL7eE10fC6yOd7890vj/LbwoRAdRZAlCICDgta4Hw6edr9FkxhAzhCaPOXUC+KZkpiTSZdHR+X11Gmji+AqYQKITHr+qglURVBzSBfBl5IisAFZM2A7EWWg4tYAGEy1kazWoAkIAum9s5A7yQXSiSgMzOHNArJLZ0E/CPAY79sAYMbKofwHAp54YS6gcRAAAkGG0mpTr5MnotHgIXiSai6hoiJkTcPSBNtXU/PoOv5sAyorgzeWKuNtfwDH6vA2/MB9RBGKCUqlbKUwfH0MHsB1MHJIkjnw1ATuAu5935wAnZvf4VJRoh9Ztb/kJOa10AP4weAABRHfz+mNfTvsXiOZj9YAMM/3dA+4HziC/3A+O6q/2ga2o/0EZXy1nTgQngmsHsB7MffCMHLxxkp5hErWvdAAAAAElFTkSuQmCC",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAAz0lEQVRYhe2VwQ3DIAxF/wKROkUX8BYdJHNkgN56Quo8PfbYddwTrRMghRClJPqWviAYnn5wAui6s9YI+wM4kTRgmixy4ERUBxRD1nOwjypI75YDpHeqAwLIdg6y96DqO/hPGQGokQ2NKMzr86FeZpLa8bn8B3C/IJBdnMofCbB4E6vLyGAAaOBEIoAAAloBnG7QOV1f39YL9lL5BYhBigB0QAd0sJUD87BUY3ulApC2HdN0XuAgB2D7BBDQEKD6b6wFjCC5r+PHCSCAgMMA3nUB5SAtQoOfAAAAAElFTkSuQmCC",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABfUlEQVRYhdWW65HDIAyE1QAFkALUgNuI27gGqCbVkh93cDxkQItj4sxoJo61HyuQ5dBurd+t9a9t82xM/B6uHbN3zNn9NIckQAlJI9wPOdRLYGMiTFqEegk9V4TYThclxHZ6TYjtCqC1nS5CiO00hxDbqYYQ2xlgpgdiCWgPZM8CuplVJ2o3s3qYHLO46pErQj+xkbSishQ1oCxFDahGGmI7O0bEthrQHGmI7WykIba7jaQaaYjtbKQhtsVGuvFIS1/f0Eib/KwFeMe8DhD/Oy0BRPESQCa+HFCJLwWUIhxA/x04DBCtaxxMAZrijwO64o8ChsRqABU9cAQYElOjkYbtSwCV+HSAWgwByjxR3INJx9g8614JUO0nA57sXz+bKtzzt8wICDEiDJEBTnGgEZ/vIPw4IvxiwPQerN/EtSVMd+LaVuaH8ftmsyAiv282e3zL+MsjCJLk0BSkejOVkJsCUsgRQNpElYPrAUeQG5/CtIPmJkoOSgh0ClK8AXUTl04c5E3oAAAAAElFTkSuQmCC"
+    },
+    "username": "Lord Crump",
+    "avatar": "4aa8f3547ca431252807943"
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e000003",
+    "inventory": {
+      "bit": {
+        "1": 63,
+        "2": 43,
+        "3": 88,
+        "4": 50,
+        "5": 15,
+        "6": 23,
+        "7": 33,
+        "8": 23,
+        "9": 42
+      },
+      "blaster": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 2, "2": 2, "3": 4 },
+      "fish": { "1": 99 },
+      "lantern": { "1": 1 },
+      "null": { "1": 99 },
+      "pixel": { "1": 1 },
+      "sign": { "1": 5 },
+      "switchblock": { "1": 9 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 3 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAADeklEQVRYR+2Xz0tUURTHzyNMSKSQIt4QhCRK0KpxK0RrbdMqcO38Abaolc9VLfIPGNdCqzbpHyC4dVwFoRRBxAwhRGEFJvK63+ucx7nn3Xvfm4p+4XUx43v3fM73fM+5M2+S+dmZfGZunmKr1WqR2Ud639b6GiXtdjvHm9ha29gis4/0Plz/xwDsBZc7UAkwEQFy4dpAHmijoWggwF/aBVNXjtpgiG+Fhgh7iy7gHxjiA9UCwByecwaxGt8IR+dAHhjABgZIH6rkY2+C46wnjCF8hHVZ8n4SO8amPblng3MpDFjKbXvtWi62lfYHATb7Up+xnPA+XKhWgGBrkAHk/ewmypvMr0DKx6gayCCA3KySt8lJFZUeeIOZ5oNoYpFaqugHFhwpzwtgqwFBsLI+2gVbAmcMvK8GhKazlgeFbJavXmODVHRAmWYFsalahazHaaE1T2QPtTIIqOvDzwOioxf7sOjfS04BdOqB+Yw7nYP/wgM8YISO/dbOS7qWXgh+KrzufTx5QvmzgKuNi1ZBmjboXe89naFjr6BhOqSxdJx6va5z3ynhVe8TnaOvXsARDdHb3j7N3LweBmzu7NFkOho1LQqo43oJwB4g7bFxIORB8IvmdnPCaeMIfTF/I3Y/+qwzShAUJ78cgAysopYC9gD1Y0kPtCeYFZ4DngtnDtDGK+nl6DfiRHo+PAcwBVlCC9kr52BggJ4D7UPVN3z090JVMO7XArQXms6wtVY74R8QOiuCm82mc3k0naSpO/f9T98+2RKC4IPeHnU6HYKSyhIQPLeQ0e7GCiGYVy0AB3OQhFQCdDBD1lczgidRQCwYdeM+d8J6oNuEmvVCZtk+vm9pMuCgu0ujjSknPhRsBwmAW7P3SkGyZl9mRwEAWJsbT+0rK4plLgDaA1lObQDTdDk/DAAQRg4M0OXEzCs8yClzjmpCZu6fP7H3uZ1orV7mNJrfk5l5RvIAutvrdv8QfbOvR3TWvkpQJUAHSwUARQH728+K/cjOMKmmMT0XLiEGYIgXAANlMG+WCljapem7rgIOHm7coMPui1IJuhQHIIM/d/eKmh9nD2kxWylgUkkQwNkR/CB75LSRARyMm3YOfPI1wJe9BJC9lgA9hUEFvw3wofumPInwgc8AK1nJFp0uSIXBQZIQGOfzAjMRBPBRHmuM24QawCeTAd8Bk5wKaWtBMggAAAAASUVORK5CYII=",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABh0lEQVRYR+2X3Y2DMAzH7THKGvB+9B3WYA7mYBnad1gDxsjFOZnLt4AgXQ/FEmrBzi/OPzZNsR5rAQmGcmwQIOEK/Xq+glMogDQnAJFcvxaK2QD6AAqmez0DfsZIvjcA+iw+AA8mnxdAAQwJAThTB2CLEMtAzyR9F5LrgADjO7zPsRp7ftWAlwGwP1bPQsYbGSQDjs3/E32dBmdm34op1s57wNFKzIA9CgBkEbMGVCkfUAdjn3g+yADArEHWgNr5BnXgParv+1WDeZ4BCSCPtebZfidgmiaxAUKZxOAO4GgmHwbYqZsRZiwhAy6oxH8uIrXlWXPauOs6MQyDt719PiOQAoqigGVZwIY0TSOqqnJ8dwLw+nk3dB14/T7fpsHfAuwUOdW+7zHkk28jFYZlWYrH4wG0x7ZxUMynAPICKiAfYF1XaNs2CA8CaBfo8gHoORl9KoA9gx6gA/i5vp2OSHoQfaelcX/Y61AZ6E1ypqWRCujMQB6DY536fyEDsoh0Vs51cAMNvgFm2BA6FUWjswAAAABJRU5ErkJggg==",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAADhElEQVRYR+2YMW/TQBTHn4WyVGRBZbCHViyVMgGNkboAY5dkYWAAMXQgfAC6dWgq1K18gGRhYGBjaZZKIFVMkXCCmECVEKJCzgBiCVsH43fuuz5f7s53BKlCcFJb23n/3733f3ex3QDy0e12s/wnaLVaGZ7HcQz5MR7KgddwJEmCnwekCQiAf9M0FUFRFAnAdHNTnNf39gQUxTgGg4H4i5OWABSAwbcPD+XsBKAMjACeQU4H2BYVQdIeuWUQhqEQTCYTTA/SZF+cp1Bcp2HMYHV1VcSMx2PotJriOIrbonb0A0uxesAzUD1wAvAMOABnpdm9M+BCLw8wA53YOQN1JXp34bcAvAulxhtO5FLGz3Fz8C4QjBaWykAxXhO/CKBmgOe4KnXDCWArYwbgUrMasxwtZrIEXwCKbzSvn3ngAyBxyURXAIp5rFcJKL7fvlWayxmgEzuXYBI7AdSaVa+sJaB4Kbo84+9x+g2whdYMTGIUVQJs4kpAVc1WD/gKUwPfjt6Bzg9pok2MMCugSmwF+NY840Gv18u+Jy9d91IpbjG+A8Huw/Xszfgj7HbW4WgydQKthHXY6h/A58mPArAUHMMwrcFGew0ORl+skPXmMjzbH8JadAJPBl8LwOvxJ9ho1iohXHwhugbd/uAM0AgXBNWUCRcfwxJciS7NAjB3HUQVY5wRoELwnGrGmWlYARxCx1xcmYEK0HXHqQT0A4fO2EoTyUyTsVoAibiYTFO7MwOghaQT6yC47OVCoqVsE+sg93ZenG2mE6g5bSQKqsFJsZlwOz/dKZ7Kfcfj7T3t3bl081SgM/cR3Y0lS3qd/Il7BBAWz8t0HD/qE0/qvAAEi7s5/PT5Sgt43mmI2EbzZikDF0CGLx304vGh/0BawGGmDISYBj/GawRrRAugA5TEJghep7c37oFWjME8C0WIrZZPqpWzn4q54XqAWjdLGcVSxI/FB/S+qFvKyuwcIsIprdLy5UBXgDq5aT847QVdJcZrzg+aJsJ/AHvp8rKeBf+jJpY2lK8HtEesX+u2hmT5gKD471H53dmhjUIslOcBkLNTppSFq4kSMJ0eQb2+IstwAZRmn+SAMAeQF94AbjaWYQNkWxcBrq7Z+1OVgRHyfljAqwA4vRFy99WcAMzifDOYqwRMf/fnHCX8EQC/O1u/A3BB4VAX1dxd+MsBmP5cJnq10daiX7pskAy0M3wdAAAAAElFTkSuQmCC"
+    },
+    "username": "Fortran",
+    "avatar": "Shadoo_1427172759"
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e000004",
+    "inventory": {
+      "bit": {
+        "1": 29,
+        "2": 0,
+        "3": 72,
+        "4": 41,
+        "5": 16,
+        "6": 0,
+        "7": 0,
+        "8": 12,
+        "9": 39
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 3, "3": 5 },
+      "lantern": { "1": 1 },
+      "null": { "1": 118 },
+      "pixel": { "1": 10 },
+      "sign": { "1": 2 },
+      "switchblock": { "1": 5 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 12 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABOklEQVRYhe3Ywa3DIAwGYM/BGuzEFh2EDXLuHL68JVCPOb/L30NDRIiBEvNUqY9KPoTiT46BpgpB+aEJTGACXwMQEZQxgQmcAfauGlWAvUMIASEEYBvDFnFcQI7J2wbfgRQBICFZcgMQkAEVlHqQ9qHZg8urYK2FJnbAGNMVB8AY070DIzKBCXwToD5MuuPMFpqg2n0mk2oh/8vJJ1bm0CkhXqcVlOYcgFzPgfS7YgUtoFiBdH+lCk49UK2Ceh9YtoC/FmOB3tM4HvhsD1TL6KxHGkSEx/2Gx/2GlResvOzXaRDRa74ExMQ81EAKqYCVlz8C3k0WgZj8G376AO+4mOydrQLe8asCCWgl75UPBXrK/ywg7sSrVTQ3UgkpAvlRbgK9v4Xi430CE8gHhr4/SOM/vz94uwdXV+EJ6SAinNjWCQgAAAAASUVORK5CYII=",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABLklEQVRYhe2WwY2EMAxFf0+0MXW4jaENt0EdaWNow3NYrTRhHMfJ116WIL0DODwZ50cCImIMEBHb932KSqCqQ7iC4zhShIJSSkhKcJ6ny5Dget1RQA2R2kYqSFSUqcNEHWcARrIES7AE/0SggDFAASuTVAIbxBdsW45QIBKTEqj6DAlKqbmjgBoitY1UkJgoU4eJOs4GfP3SVVen3qn25e0Vyc78VQOf9b1ycCaIihk5omJGDublH8HKwcqBGfBQo8BDDVLmqARPG8MTbJojFMgRkxJo8RkSlFfNHQXUEKltpILERZk6TAyyqUWolLDeFfQkKUEkSQtaElwXRO2Ggs9iS9IUeIXrs+YMMi1HHU3n4Pd5KGh18HnfFHgvebvkCnrx/XvBiCQ1xGlBRvIGBB2THvXYbLkAAAAASUVORK5CYII=",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABZElEQVRYhe2VPXKDMBBG9xBpUqVx7UY3cK2KQ6RxTY2uwS0Y+Rocgso1N/hSxEqEshJIm5hxLM28sb27PFY/YBovV0ggscC2M8bLFbadEX73CePuN3HFOZBtZ/TN9CPBxbgc9c0ECXJBp0Y4XDAWC3OdGpeCWFEKelc9fDo1IhVbFeSSFOjjGfp4TgtcUSlJgTqcvj59/DyFyVzo9eUNHOpwYuMhREQQQlBKsbiilfxngdZ6QShI5L8L6DZigkj+FwWiKYgWUbyN9RzUc7BWYIyBtZbFGHNHgTFmQZaA68LFH2gN/k4Qri5HUsAFh2FgV3yTwCW2xLMFYa5I4OeLBYuTWHLxQrBlG2PU98FzvQ/Cp/MBp1DPwR0EdTzfEO29/wBJ7l4m8f7KdhD4FxdJfAGAPAF396wuJAIQAU0zJVlrICpx8dUppCUkFWD3DgSCW/u7CzIWMdFFWQf/QCBexMxtjPMB3Lp0GTVrkL4AAAAASUVORK5CYII="
+    },
+    "username": "Doopliss",
+    "avatar": "Duplighost1382760747"
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e00000d",
+    "inventory": {
+      "bit": {
+        "1": 82,
+        "2": 39,
+        "3": 15,
+        "4": 44,
+        "5": 2,
+        "6": 7,
+        "7": 17,
+        "8": 18,
+        "9": 20
+      },
+      "blaster": { "1": 6 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "fish": { "1": 99 },
+      "lantern": { "1": 1 },
+      "null": { "1": 99 },
+      "sign": { "1": 2 },
+      "switchblock": { "1": 2 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 0 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAACZ0lEQVRYR+1YvW7CQAy+GyohJOjCAjNKNzrwEJ14iC5lgK3PwBuw0IEnokPZiphh6VIioUoMND7JqbnYFwdCFVW9ifjnu8+ffUfALhaLoxHWZrMxnU4n4wU7LPBZAAgFYSCiYHIKkBiO7XY7s8t2u01t1E/tEGCPyYIP4/G9mU7fpGpYO4A5AEjGhSBo858hjm5kR6OeKCLdttu9Nev1Z4aJGkCq7ToAEl2upOsw4OoNiqihrBZRC4ZxKg1CoCqA0HyLANpSymHQ692Y5fJQ6CRisIqBvwF9VgGcJSKXxJV6wiBEVT2JRZU8S4OMiNRQtKUqBiFQFUBpbeSAUgbaFvpxFSqh6ABBPJRjB4O26qtNHGUEqNf3Zr+vFyZSHoPQ1j47+nzC4JwyfqeE4FkItZErybeVW0I1RcxjVZ4GeTvRVoqTWPgkJQliCVpGdtbvi/dBfzYzr8OhSAz8DmB54N8NHudzB7CK4wzIV61mwO8AMACMdCFAaAP3i+Uc8dI3FKqBpmZfE/scRY4B1pRXM/VDjh31fn5waGoGAKpJuRr4YoY0+Wi1zMNkctpGCqDVRDVIf3gOQLMKzMGTMeJhekkoNqKGeNbiVWzsP0AVNEh6dNmdmPQ5BYC+Jm0VFzcX9h/AVECDi+fgfbe7bJAAIGrIlwZOFfeO4O7EEIBNljSWyJwFkBIx6a7ZdHksA0yGAAhEBlQrEUCTDIAsgCaZY5RqwNXt06aCnmiAtLgAzgc2FQCljEloywXw+09bqGLAlYO7w1/JOJnpQPh0/f7TZDreuQD4zzc30sAieBYCF7RzpQB5gSH/N49Ugh01KIQHAAAAAElFTkSuQmCC",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAADIUlEQVRYR+2YPXIiMRCFZ+6wCQTOnTgAgo32BHAJB5DsCVyuAqpce4JNIPAhgBNs5AAINnHuABLfgZ0n11P1tFrzJ7acWFV2zai7P7Va3ZKGPMuyS/HXueX7/d4BhsNhADkcDkE/+qiP5/xSNFpKoaRZ/YQ7D2KjEzIajbJCz48s4TljQAVtBOPpdJqt12sPkUAPgCEhULAa5JCtVqtsNps5lbx48TFgJxTQ8C6f0adlJYAeVQJiskpAk+QwAZPJxNtut9uAQzlk+Xg8vmiDqndJg57pAchyFOsZIOeBXAVJp+vSGxqhj4N0CqL00ANIbRL5UirLKUhyU1CnKUQ9oKAuDyoBehqxaXGQTolkroKVA+jTeUA95sn/CWLTJQw2lDaG1K2dglULtXlQ5YlO+VoPLFh0GTXdKmmdWIEHVubJbU3HxANiG0jdynSKQdIqaI9KR1udu5a8dLx3AhRGaTcUXDDkvi9LWK+M9e42FJz/aLgDoLV5/wKsP473NkHTQf4CXCOIybVQXLTTqhEAfdFusi+g8PCXE2BdKHV1SvBut8vcB4cELJdLpzOfzx1dApCtUh4F8Erf6/VKgPP57D4HcN3HACYAo2MUKsodSBpDzwTQZTkalKVXLKYAgH2RAO6L8gtGBhnx6Pf75SAmAzBC0hToYlIQpXGnZUxOJF0DjVMZy8Lv4yaFRB1fC22MgvvBZrNJ2w8A+HF7m/15fQ0c4Te03i+kfk4PjsdjNhgMPATGzA3MtTiASgNQ3wOkVBrLgGkIZCYAgjoPCL6+B5b7VdMoeVBlHIMEU/g8D5q4b03DTwGAxWJRShb+vmQVGnPiOnlg1YL2SGZho1qoK/HKWqgzlnJ3S2tjEGwo/AUDu3CbhuPPVWOyB6Do22pxcAYX0Fhf/v3u7vLt5qb0jdAKAA8A4fwBA4B9D09P7szU0F+Pjx8xwL/iXLggUXDm/315cQKAkNo/7+/dMwHvb29ejj4HQAxw3uOAgRGV2QcI2+/n5+x0OnmvPACGUiC9Qr+GciAPkN8MMWULWgnQXllTrQRYXmloa4CGpqfypxfTP5oIPBM8Dw+3AAAAAElFTkSuQmCC"
+    },
+    "username": "JacobDaGun",
+    "avatar": "JacobDaGun1419641211"
+  },
+  {
+    "username": "Slim",
+    "_id": "523a80d1d851df790e000016",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 6,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 5
+      }
+    },
+    "__v": 0,
+    "avatar": "Slim1437627973"
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e00001a",
+    "inventory": {
+      "bit": {
+        "1": 72,
+        "2": 34,
+        "3": 4,
+        "4": 73,
+        "5": 15,
+        "6": 6,
+        "7": 19,
+        "8": 0,
+        "9": 18
+      },
+      "blaster": { "1": 98 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "fish": { "1": 76 },
+      "ghost": { "1": 41 },
+      "lantern": { "1": 1 },
+      "null": { "1": 99 },
+      "sign": { "1": 3 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 2 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAADBElEQVRYR+2YvW7bMBSFSbRAARdK56BDNhvIVsRr5y6GnyCz+wDdskRZsuUB4rlPYHjJ3NVFtwLxFqB1dgcwUKCFykPp0lf8EWnJjZcKCCSQ93z3kLykYkkhRKH+Wl8SAHW1AkgphQbcr9dicHSEZ6GeC3omqp1BCWUVVwd8+/m7ePf2pQY1iQFcPj0h6Rbw58cLcXr6OkkcdJCSGWI2VHcO0OkbM9pI3AjA5PSzzJiByBYHAZjEXrYRBAiJvQBM4q83rwQBmsRRAOrAZ5svrXcZ4QB1EBMDFKwDXyVSZj7BDgC2fZXIxfSM2FopK2GrzaSGWxZSK3UlqtV+1UZAX5+TiweVwtsq5qO+RyEUUBjhWQX4qu5+CB+y3lmlmIS4Q+wC6g6RRyWQSlxoMQHQ4QJch1WcFIsKYE/P1AyhnBfukGJVIqnk/mUkFwi2HbJkYQANhQCBYmkGBES8+T+gaRkTJrDcLKE6eD5A1wMlW2fdTqTOgP6nfvF4+RicsuOrY9PH46hdHygKooN8AcubpQFQHBqoXV5cnBTX1w86yBeg+g2A4tBA7RpAEb6AWDnI77fnxeeHL96485P3tXYeR30aEMvS1N8K0Puw0czNXU/UALyjKethAMgKy/aVPAedAaE5SXbwvIDU5dRnoq8SfYCdJrE1IJQFVpMcNAH4KvC4VsvYGcDdtHLQGXCY7Wyvws4nUlIdxI6xTgfKv9vOitztvUAA/g1hmQ+i75rBVfnStT5ARH9fiGVevslxAcIAcTEJCbI/wP1lX/Tz7T8S+B1jf1bhbVEHOwM6O9g7IFYEzhzYDg4DQFa+lCEX3krEENpcphIh3hVS20xtspNmLx8g9IGyWq2SjCwWCx03Ho+350FMTCI7AyB6CBxAwcPh0MT7APP5XEyn0z0DQlZ9k+N1wAE0BBsKIV3OEJoAJByNRoKeDWA2mzkubQdJAAQhQ2jMdnujAwTz8fqgDgCCPM91LN25kNw5czCZTExcZ0DShlBBsI/L7EbuIgYhcQ0QE4X6/wKYlcJNGJKYvQAAAABJRU5ErkJggg==",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAB80lEQVRYR+1XPU/DMBC111ZCbB279Q90YmBELHRj7Aw/gBmQQOp/KHNHtnZBjAws7cqeqeqGVLWr8Z1zqXONEwdDFVW2hFwH3/N9vHdx5Nd4qETFmCQfuGM0SkTvrieWj0tcr0/WQoYAAEghQOtyiyds31o4uzzwBiAQCoEihlC8POBewBpysecBuE5uF+WVQqGE1gawPaEDvKpQVuWGAfD6u1y39+VC+FcAu8ROD8qy7eJIA6qg3a7sB6VEerrqqPvpSjwPOgJmKc32zeY8Z9dum6ai9HG0F2Z5o+CREC+pJTfkpxOQtjNqBIAi42TSzdl2h0m2tkEyADqZG3IPCAhAwAuIGH3hAK/T95zt9eAC1zYAhgAALuOH2QqNdKJxLgJxApAxuQEghwWAk71DCEoi8eDXZfwTIgVROVhMxEROWd91RmVfA75PajFmDUUis62x0L/7+g9mPuDZLWhBWR2JbywD0MZGTBEg5uBIeDAv0QLwfWxE4xrhckYxMRWefgrxfeaQcd4b/U6PADEHcCss4AESy/U+8CFSBBDiwGoM/V7AG8o8bVhQe3zg/w1iWhr0PRgpAM020N7lIzWJAOkHR0zicRCJXv5ME6q/E5VcsIt4Tgvu+0Plfwh2p8iaqowARo2mDVIJYxJrt/eYxCYQ6QfOlUsX5FMAcAAAAABJRU5ErkJggg==",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAACLElEQVRYR+2YMXLCMBBFcQvDAaCh4wKpU+cSpM4B0tFk0tDlAKQNl0idllyAjgb6zODW0Ze9YrWWZckiyZCxCsCW/9PfXUnWkA3qrahuZY6+2i3+UClcV8886O9WCD1QGOFNBfhU3wEQAEoxCfENcTBgrQAQEQAGogDbCiDT8xoaQqEArma7aExopuRuAA8FvxsS6gdAiFColRBquoLtAIRCbri8chQOkJBggGt0cqUg7Q64bRnO7wIco6MI4SE0AbZYTAkt6wGDPgdqKvbz4F/kYDqdFofDwfkaRx+2Cl+/Frog/J6v34wcKpADWtZDLMuQLgdICiEpicllTAb08+B8Fr7ieaDKmHY+AGD8Ne58xNDH/R8DTJ4nlrPj09FcU5/TAXXuXnYWYP44N9fUVwNw8XI5swCr1d5cU58TALoUN2XZAsjRF7NbS7fZf5hr6qsB+OgS4HLRCTC8yzUrfx/qxWTmAUIIcdAIADUE0gkAESzL1lpGSmQQQNrHaG2V6JREHkZWqBa7ljd5PlgMy3xcIQD2qSGM6BCSAFysSxzrQAKiquASawBW49vpZOoq50STEM/dj0ZnAMXEAT4xB+C3dhHTMDoiMH9EpQKiXNDolETuvDUULnYBtBN8yJAqYU3j+7dOLnPns+kbCizT6z1kR5alvuymCnqTi6BdmexxSNS27gPw2LmbxhMKvSNd7wUvILYSfzMP+vOBvRq8VdAbrTjqeRdT7BwA7BtWiHAOr7kzIAAAAABJRU5ErkJggg=="
+    },
+    "username": "Ignorant",
+    "avatar": "Ignorant1429382823"
+  },
+  {
+    "username": "sims",
+    "_id": "523a80d1d851df790e00002f",
+    "inventory": {
+      "null": { "1": 99 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "yepimsims1359336448"
+  },
+  {
+    "username": "Megamaw",
+    "_id": "523a80d1d851df790e000030",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 64,
+        "2": 0,
+        "3": 10,
+        "4": 13,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "__v": 0,
+    "avatar": "Megamaw1270589604"
+  },
+  {
+    "username": "IceyBlader",
+    "_id": "523a80d1d851df790e00004a",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 2,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "__v": 0,
+    "_id": "523a80d1d851df790e00004d",
+    "inventory": {
+      "bit": {
+        "1": 13,
+        "2": 0,
+        "3": 10,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 1 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHESURBVFhH7Vi9TsMwED5HPEsqRhgY+iYMTEi8ANmBvbwAEhMDb9KBoYyoeRnjz7UT++w0zo9oifxJnxr77Kvvu7PlREhJkr63dAziek1qHAXjrtZEcreVcHKMaqiMjUN/oT1NwN86EMI8OEh3AMEU4MRS6UAC4lhjF/TgXZgpZGcBWQAOS2TLs9S2jjBhKyAOaJUdjMY7fhXR5bKxRwh7qwFSqYjVWCah7x+67LBpeg1GPTgSliXs+jyo641qD0f5WVGByWVZma50YDKgRRzqxE4GmiykOnEnA2K/30CQBr1OXsyvwek3U3YwgwOvDniRRPGk6NRCs4KkyQAmw4mBdpA82cJxIuSz3tvjoJwEe2Ew9KnTRbW6aL+lsk9P4yQNAL4kr80ZsZ9BKc+rAWeCJovTICFm3pfrINcBmOsg1wG4AA2C+8FqVXW+ekXvEq4gfZcN2N3x4OlFXIADrw7q2/7Xv+BSytPiMWFvnJkGo8Bj8tqcEfsCNAjOg6/Xd/NEdPf2Qx8Pl6ZFdPN4b55aXLgv2ykfIvjL+WQNVC7alJhwOhk7kQ7fVA0QgqsBBzSYPYR56yCfByPBY/LanBH7v9eA6BfG4eyZ1vizPQAAAABJRU5ErkJggg==",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF4SURBVFhH7ZY9UsMwEIWt5BRcgZKSNkdhJh0VdNTpoKLOUWgpKbkCp8iIfbJWWcmSrUjMmIH9Zjb6Wel5vZIcmSHG+nKJME8KWMJX5zHGTTv/ENWTGRbZuFYH3QKI4+LwGbxGMQL/jg5ZT1k/B0UBmZe5HAWBufdMifLjy2glMCB9atrnRYJUJADSiAr+ssASqQAoRlF6evgRpGGwv9TvKtIpBdNJYOI39uM9DDQ3t64gs9SPekTOHwSOT84ZcXc4i5T8v/gs1NKfRDRcbQRtRvYzS37ln5JupIsxz5/bZoHH69Ngrl7bI/i6rzyND7vtpOR6lcDL28lN4FJSHYEUkWgEGgHoP41krQLuP2KD20fJ9ntSz/R7s+S3PgcQyxmT88EqkziHClAqsRS+3gbWswTE59B9MLK+QPc+wFr0C9AdYWw14ATojjAh/foy2c86BrPVIMfqRlIBsL7Aj5xGpklICoDoaPPJyx0yvvLoMqoAUIE/IDAM36ZhI8HJjn9RAAAAAElFTkSuQmCC",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK3SURBVFhHzZZNjhMxEIXdjdhERMoKKZFmN8ocIJyANbkGF+A0nAPWnAAOwGh2I81IrCIFZTOL0J/p1yqcdvzTYeBtqiuO6z2/st3dvP+4OX5zzs0OM3eYHdymey7Jm01XoMur0VIJUBmU5i0yHj4/eFlEckAOUnlLpdW7lZ+sCCwTv5FrTDnI9sASEIVsD7b9pOu31z5qfHoXUsyp/LL7wLqdq8TvA/Cpd/fuy52P5CDsO+NA44MHcjfmtpgZR6HG//1ZmKxgEpbb5bHpn4vBZLrV9nkRmKxuFSsQs1CkwDKrG9kKQmYhS8EYs/bBiz5GIebHPn96+eS38s/13OdnFcSYKUgREPUgtuYQowrOrfnkLPRxQC6z8IeCMWZw7qYaFMSYmSTTbBR8ATFzbVGZawymnLwpXfNFAXnRYRpD9mEKoaVPVlBVAHa9F6oV6I1VXEBr146sVqB3ZVEBu+l0Fp7PA7GLudoDMRd5YPsOs+4HkK1AzPZLBiTPgu372H2QrUBrLvIA9tTtnFQQY1YeLRDre5gnFcSYz3oQ9h0UezDGzAYiJ0Y9sH0HYgpfLETw99+NxR7E3I7lQ4Hcvof5iYIUs06hcl8g7DsOx5jxyI4PCsQUnvcxJYwPHoR9l5Lcbkz+Pmi2H9bH793DYrdwu8XO3XTPJXmz7gp0eTVaKgEqg9LcK9jf7t28+/ZVLEFLJTuZCCwTv5ETbQ6yPbAEVmW2B2/6SVevr3zU+PQupJhT+WX3Qeg2SClp2Y7ga+/u/Y97H8mBxtm+gHGg8cEDuRtzW8yMo1Dj/8lZ6J+rEP1CWa/mx5vlK6JbL3/7cvu4H56Fk1v5HOxkioGsAvqzhYplFRhjFoqWACZ5MIaiAlZ+lYlWfrWJIZ5nCUL1EixziGIPVKxqCUDFipYAYsvILjC2DOec+wU3agSVcDFJIgAAAABJRU5ErkJggg=="
+    },
+    "username": "Gold Prognosticus",
+    "avatar": "Gold_Prognosticus1420383674"
+  },
+  {
+    "username": "Linkshot",
+    "_id": "523a80d1d851df790e00004f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 87,
+        "2": 99,
+        "3": 99,
+        "4": 99,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Lumi1336322293"
+  },
+  {
+    "username": "Will",
+    "_id": "523a80d1d851df790e000058",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 5,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 7
+      }
+    },
+    "__v": 0,
+    "avatar": "Ultigonio1263564841"
+  },
+  {
+    "username": "Grievous",
+    "_id": "523a80d1d851df790e000059",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 97,
+        "2": 93,
+        "3": 10,
+        "4": 9,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      }
+    },
+    "__v": 0,
+    "avatar": "Dimenciao1342913541"
+  },
+  {
+    "username": "Glitchy",
+    "_id": "523a80d1d851df790e00005a",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 2,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Lord_Pyri1373833955"
+  },
+  {
+    "username": "mono",
+    "_id": "523a80d1d851df790e00005e",
+    "inventory": {
+      "blaster": { "1": 53 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 2,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "mono1373862506"
+  },
+  {
+    "username": "herobrine",
+    "_id": "523a80d1d851df790e000061",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Dcanthony1370626483"
+  },
+  {
+    "username": "JumboJetJester",
+    "_id": "523a80d1d851df790e000064",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "JumboJetJester1374007090"
+  },
+  {
+    "username": "Magmma",
+    "_id": "523a80d1d851df790e000065",
+    "inventory": {
+      "null": { "1": 36 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 78,
+        "2": 0,
+        "3": 1,
+        "4": 14,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "username": "Gigabane",
+    "_id": "523a80d1d851df790e000067",
+    "inventory": {
+      "null": { "1": 39 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 2 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "username": "Maximusace9",
+    "_id": "523a80d1d851df790e000068",
+    "inventory": {
+      "null": { "1": 99 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 6,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 8
+      }
+    },
+    "__v": 0,
+    "avatar": "51e9cddacfe801374277816"
+  },
+  {
+    "username": "Peach",
+    "_id": "523a80d1d851df790e00006a",
+    "inventory": {
+      "blaster": { "1": 59 },
+      "null": { "1": 71 },
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 6,
+        "2": 0,
+        "3": 6,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 6,
+        "8": 0,
+        "9": 3
+      }
+    },
+    "__v": 0,
+    "avatar": "xXConorsAwesomeXx1374776268"
+  },
+  {
+    "username": "turntechGodhead",
+    "_id": "523a80d1d851df790e00006c",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 7,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    "__v": 0,
+    "avatar": "Dave_Strider1374830775"
+  },
+  {
+    "username": "zch2010",
+    "_id": "523a80d1d851df790e00006e",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "50a3ae1b3a12a1352904761"
+  },
+  {
+    "username": "Rockymoo",
+    "_id": "523a80d1d851df790e000071",
+    "inventory": {
+      "null": { "1": 57 },
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 46,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 1
+      }
+    },
+    "__v": 0,
+    "avatar": "Rock_Knight1375066273"
+  },
+  {
+    "username": "Hooly",
+    "_id": "523a80d1d851df790e000076",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4aab21ca118571252729365"
+  },
+  {
+    "username": "Strong Bad",
+    "_id": "523a80d1d851df790e000096",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4aa983ff232bc1261967557"
+  },
+  {
+    "__v": 0,
+    "_id": "523cb37db83cfcc437000007",
+    "inventory": {
+      "bit": {
+        "1": 92,
+        "2": 62,
+        "3": 4,
+        "4": 92,
+        "5": 0,
+        "6": 4,
+        "7": 3,
+        "8": 3,
+        "9": 8
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "tiptron": { "1": 1 },
+      "youtube": { "1": 3 }
+    },
+    "tiles": {
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABv0lEQVRYhe2YS47DIAyGfYMum3uQW6SHSroc9QDlTll2k5Nk6VlkoAbMw4A0UhQkq8Lx/2HziEIBGxucCKDUas1v43uMPgf6wNj4HgPj4pRaeQAHEQNKIUmAD+L8kErPD44CaiFVAD82WwK3pFSTncRqQEzYBeDMAQBgo12AC3ABzgM4Y0MANFYt1lpbEwO01s5HRDEEEREAwAHMYK04i+oMfEjVHNAM4KhKDmkugaQuL8MfXZwFBQBAG6B6Hrrsg39tuddX8nXGTiBdFRPDAZJiClmmIQDYgHVWuM7KEVEfV4INkJgDaLADsEwDPh93kQUAbgQSGPO7gOfjjss02L75/ew7vrYNP/vOA4wjBjDi17alAUbkA7IlGIcRU0DRJPoA2i8CNO+DGiNnQyZgDpdclAVIWgAwFyu/xf5DcAD2eqtVeFPTir+9+wCl1iOYWuJiCr7YjpYRsgCpOMxAIDQDgVN7IrAOkCqnOINMdjxAuoxJcQZSDojtxJ/bDVvM+TKvsS/gOFoo7YPtfM+nqN+hhMZmvlfCVLn0mdiwBD8w5vvzd8qAE9ClSzzvMIlddmKkvpI+BLUKf9tLaD3Ov7+6xm1p4WNTAAAAAElFTkSuQmCC",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABJ0lEQVRYhe2W65HCMAyEtw3qcBH5RRvpSW2kmzSQAmhg7wcRGD8kDnNzPKQZJZlZ5bO8dgzYto0jCX3Q8F4oayATKkEmUCYQwOVZ6/IaAMR+uRIBM6u6fIRyxDJVv+nyTwClFyagNcfc0J4PJGsPSqdbXZQdVoDWcrX0pgdlQQ9Q+FLPUed3z74wl1HNspbZBVhb++GN5HrwqzwcjhzJABxjFV7Dgw/o4P+nEIAABCAACjitK3spKXU11XFaVxJopgIsPQDPAEhKHElERES8cHifqPsJDwHI7C/sA/oY4Oa8axR5+n5QipiAns5lWSgil5znOS/y9DFAJZZFjj4M6P7wEKAt7maeC9m/WwHr5TfroGui14E3gtuBP8bnd5BS4kh2Tq6vih96xe2TU+kNdAAAAABJRU5ErkJggg=="
+    },
+    "username": "Viddd",
+    "avatar": "VidInferno1403554572"
+  },
+  {
+    "username": "Yena",
+    "_id": "52419a70f8d257f168000006",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 7,
+        "4": 12,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    "__v": 0,
+    "avatar": "Yena-1359693025"
+  },
+  {
+    "username": "wafflesthewarrior",
+    "_id": "525750171e93d5947a000013",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "52574f20dd13c1381453818"
+  },
+  {
+    "username": "PixelGraph",
+    "_id": "5257523a1e93d5947a000014",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 13,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 6,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "PixelGraph1381455580"
+  },
+  {
+    "username": "RadioactiveMoth",
+    "_id": "5262e76a402f4b7a61000002",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "RadioactiveMoth1382149252"
+  },
+  {
+    "username": "Toad5x",
+    "_id": "52742cb0313e52b81a000003",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 7
+      }
+    },
+    "__v": 0,
+    "avatar": "Toad5x1383345305"
+  },
+  {
+    "username": "Nario",
+    "_id": "52894fc3313e52b81a000007",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 6,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Nario1283806775"
+  },
+  {
+    "__v": 0,
+    "_id": "52958991313e52b81a000013",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 10,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABFUlEQVRYhe1XwQ2EMAzLGszBFkiscXOwBhJTMARPxugavgcHQm3SprQIToolf1pw3GBKITK8AOOnRYrz0ItUCxBRwGwBAMfNAHgBIrru4DyZ3QOuAifQjm28idIS5qEHBjp4n0AsB8UCbBN9OOcgMRnrX1JkbkGS4ZyDaxqZKRfFDqIuND2IutBUr+KAdaGtLrrIqV7FweFCm8BbgBOyb/6zJmJdUEKaOoJEInluny8XIOZ7kMXcisHY8wJVe/DMY7QcWA4sB5YDy8GbclANU0fbgSECrEtg/yUC+8AfLyEFQTh0oH0b9+vVDjhcFiiubGDgn/9jOUj+L2gEontiFQGK7H/ZDny+VMBfY/I3z84Hdj5g+AVpeu/ZsbGpHQAAAABJRU5ErkJggg==",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABFklEQVRYhe2WUQ7CMAiG/yN4Yy+wN6/VZ6+DD6Yto9DSdjGLgYQ4ET5+lpUJAEgJRPT1lKrnmBZPCQStWBaN4rCSLKiMmQDvd3jnlXkFYNNbcwFyMVAh/FqOfALwzhagQqgCNNk9AMsi9hyIn55GjVBSAHYXpS/qfTIVeCDiUVYTik8BrIIuoNPF7p6tHE0hm6VY8TBu7EauFZ8W5SpgGaJtpC3ANKS30rcAv4X0AJdCTJD1VnapGb0HR5Bm/0358QatOgDC4wVadTfgeLef0wpk8RQgFISCoYLt07hTCADDEczZvYDe7KEgFISCWynAFRtp8z+CLVtzmdco8AD4dQACcCPA7mncPdYnc4+T4wEIQAD+BvABQRCfKo6ONicAAAAASUVORK5CYII="
+    },
+    "username": "cheezman11",
+    "avatar": "cheezman111385574000"
+  },
+  {
+    "username": "Alpha_StevO",
+    "_id": "529639e8313e52b81a000016",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Stebroh1359478882"
+  },
+  {
+    "username": "Carpaccio",
+    "_id": "5296e0ff313e52b81a000017",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Carpaccio1385610739"
+  },
+  {
+    "__v": 0,
+    "_id": "5299074e313e52b81a00001b",
+    "inventory": {
+      "bit": {
+        "1": 81,
+        "2": 5,
+        "3": 7,
+        "4": 43,
+        "5": 2,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "lantern": { "1": 2 },
+      "null": { "1": 105 },
+      "pixel": { "1": 1 },
+      "sign": { "1": 0 },
+      "switchblock": { "1": 1 },
+      "youtube": { "1": 1 }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAACQ0lEQVRYR+1Y7VHDMAy11+gY/OwIrAFjcJf2jjFgDUboT8boGkZPrhxZTfxBAi1cfNdrYsvPT0+S48S/Pbrw9HpypeYf9o7snLV7f9k7Hz5PARel9vzhHNk5a4f+PwYgWoi7XS5AREzQDX1dGlihwagL4E6jQH4F+AZBptpcEsE2RQE3EGQKqAkA4kieC5CwmUrhYh7oggFYN4DWoUafXUc52wwTEClh65YeZ4DafjBX6lkm9oIIK05lrKAjUdxdVMhZAwFoBbF6ZAACUmJgBd8ATBT+gYhzRWO3cp0LKQ9aJusqFBAG6JlsQTx1cDF9p8UnUxgBjoRyyJDyuzg0ZBYZgPOYMBCqd8EH+gekaZ4AFGcyUwzoZkAP17lP1xriiGFFLAKgE2rwyMgAd0diMdCq6V+8wCD9MgYLAOLKvKJege8OF16XQaY/2pNa1Dzzz51TaiuX4wLUaJLzEBoAlz5ZP4HFSPgstDqICQAMEE84QPYsDGhqALkGACY2MRBmcEEDSD8z0HmQ5+FIdkqDBJJrMKrRemVEbJ022v0HAJwP5jzHtjV3esMcPqXdHgBJ1h88FUbtQovPVpNMg9sArKqBFbPFpS0PTC20iLZ+Ii3OgxrAbrdz5/N5tt6qJ5SfB6AVlu0HVoMaZTt+pcHvA6yugQ14zaUtD+L5NMvEmmjrJ9LiPNAv38gB/bHJbnFTnwiy5wIMagD2a9b6AKUXsKkvOkUGti6sixi/AwCdifCx1q6+odz+mLeYQe3RVtVkOye6L0dPceH/l028AAAAAElFTkSuQmCC",
+      "2": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABkUlEQVRYR+1YsZXCMAx1CiqazEHNAPBuiWtuBDpKihSU190INCxx726A1MxBQ0URLBMF2ZYTxeE9IFhNYsv6lr8k20mmblLha/OiO7JrZ/0go+tXqgC7pq0blW5A2+p3IdAAJzXtY7mnTlg2+fzT8oYCdBojEgWx0Npmdl1HEBZAK2EZHmO0/8kB/Gj7PS+wBGDcFYxMMA+6srAzkXAAl1ATdTbq6fyLTWWjpIZuzoP+VO6aGkGgYCpzADCB60mwziW50LpRvBPAX7GolsU/SybogIs2fXYXACnj3DjLdYnL7pLGAIDrjiVyDBzUx3csBSr7PpjzP0rWM32ByH/iAY4rIcDmQ6ntr1L0CS738sA17gWQPLDZx2j0IhEGjzkKg6txAIDZzTqrMcQ+2IoAuBBCFYoBkgfhGhCTmKJwPbC480BM4jtk4oANpanpSt8RosX8YNB3BE+AfU7gYKFiAKgHOKANAHUwNgEkDp4oD6IrCfe1GiDq1u5+8ooLC697CcD/2ZpI7LFDp0S6fck+vpguDV0cbtWqmqkAAAAASUVORK5CYII=",
+      "3": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAACe0lEQVRYR+2YvVXEMAyAnYb62uvZ4PLoWYER2AEoKICCAtiBEViBnpfbgP7aq2mC5UQ52ZYt2YYHvEeacLH0SbJ+HNJd7PejsdfTagU3d7kH89XZu5UhT/w/Owqggo8WeGkVASwC0DoK3r+/JC1eH595a84DaiWnjJoUsoQAixrlEMICjvpz8zE8R2HQ5+jFLwUkU0AW/kAIsOPhhZlJ1oG2FrIACcKWMrpKKzEUDMHZLICwGqDJeUZmhHlRe43m6tTUApwyXDWARbkG4CmXAiLlEgCrrAXEym9W9WRKnrSJSctmhuQAaWVSOSmASjkVglqZA/DKuGlk8zAKGoJOOYAgoMht2n0AqFbW1IHU6k3zAOBNgKaB4qz/2ERarNdmoWmkedZrPGiaiZH1Ug+ahiprvcQD33rBUMVmOgCC4SJN5aTr3ERKtW52XkgeiMPmWwGidSmNTQCVcs4D3RmROJ11ypnTWe2+/mzMnA5hHRRZDz0oVq4DqE5n5j3A2wZmHiT7XTpdv+R4r9q8koGSjUKaB9IWiG+q/wBxB+TXfQ4BX4mW7JWmET8xNQDg372H16WTSzw4lPxPAOKGm73QhhDPiwJAut0tROOBCHC53Ww2ZrfbKWrPmPV6bbbbrZOdRtoMgIcAGobBLfZ97+70N8qwABAEpRwAZSLAOE5VCgBcDOOh3nXdtH0uBFBGy7CAsBAQrsHvzlJHdJkKoAWEIJTKgFEW4JRv6Lddi7mbPBMBEKfbAwDczvbhbgG4Rvcr8qAZgG5Wh0A3i2YhuYmYRhROpRHrg6bYpRFLOVzgmoKT8XoB64FTps9otUbNlKpCGuKSKSxl7Maadv4ECPnbXNsIjHcAAAAASUVORK5CYII="
+    },
+    "username": "PikminBound",
+    "avatar": "pk-pikpik1396394357"
+  },
+  {
+    "username": "The Great Gatsby",
+    "_id": "52997e13313e52b81a00001e",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 40,
+        "2": 0,
+        "3": 19,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 10
+      }
+    },
+    "__v": 0,
+    "avatar": "The-Great-Gatsby1289965432"
+  },
+  {
+    "username": "Shadeston",
+    "_id": "529983ac313e52b81a00001f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "52114abe0eb9c1376871734"
+  },
+  {
+    "username": "Tyler",
+    "_id": "529d74fa313e52b81a000021",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Tyler1290053992"
+  },
+  {
+    "username": "Jack",
+    "_id": "52a2e18b313e52b81a000024",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 3,
+        "2": 0,
+        "3": 7,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "__v": 0,
+    "avatar": "4aa9a01b99dc71386405213"
+  },
+  {
+    "username": "Dark Heart",
+    "_id": "52aeaef3313e52b81a00002c",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 6,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "52aea04e51fff1387180973"
+  },
+  {
+    "username": "darkz",
+    "_id": "52b3964999eae8140d000044",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 8,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "darkz1354566908"
+  },
+  {
+    "username": "cheekibreeki",
+    "_id": "52b62f0499eae8140d000064",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 3,
+        "2": 0,
+        "3": 12,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "__v": 0,
+    "avatar": "cheekibreeki1387671252"
+  },
+  {
+    "username": "Orangesoda",
+    "_id": "52bb688f99eae8140d000078",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4aaaaa4ebb8f31253735477"
+  },
+  {
+    "username": "Cyahnidde",
+    "_id": "52bfb86d170dba093600004d",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "__v": 0,
+    "_id": "52bfcb88170dba0936000051",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 17,
+        "2": 0,
+        "3": 9,
+        "4": 8,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABO0lEQVRYhe2UPY7CMBCF32GQL8ANKFFukxrtRbbbOhU32IImCIlmJQ7ANqm3oXlUWZL4b8aOlAg50ms8eZ/tmfFgu9kxR9hudiTJytQqkXwBKlPz/PWnUmVqB+D7x6n79TFe0wAsswbgMt+vDxnAa5acIGiOAaLmEEBkzk2iGOA1pyZRBkht5ezHlPWcP/cgL6ckASB4OTEFAuAF0EL+zUOAFDIyTwE9JKQCeH+AFXTIgmjMTojW7IDozSNI23Q8H3+ThQ9zo08AvLE+ng/IyYF1AsmO1trygFlzsEwZSx+soQ8O5kafAHhjfXwFgFlzINnRWlseUPqg9MEsfdA2HYdC4Jv+2zbd+AoSQDAHBZAIwKCmrjI5ylzmQZkH8XkQ2lE0D2KA6FvIBoTuqz7BVCsFlHlQ5sG0D1L0BELH6TTw5LBzAAAAAElFTkSuQmCC"
+    },
+    "username": "Glitter",
+    "avatar": "japanpirate1388303808"
+  },
+  {
+    "username": "BetaPixl Ladder",
+    "_id": "52c3a106170dba093600006b",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 2,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Betapixl-Ladder1388552376"
+  },
+  {
+    "__v": 0,
+    "_id": "52c60131170dba0936000077",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 95,
+        "2": 62,
+        "3": 1,
+        "4": 31,
+        "5": 9,
+        "6": 9,
+        "7": 3,
+        "8": 3,
+        "9": 12
+      }
+    },
+    "tiles": {
+      "1": "iVBORw0KGgoAAAANSUhEUgAAABAAAABgCAYAAAAU0fKgAAABf0lEQVRYCe1XXW7CMAx2UF65BjyPN3aEXYOJU/DIJZDgFEgcYXuZtmd6gHKAHqCLi+I6CdXSOFIlFr+Q1PFX+/MPqdoevloQyExg25lOD6CruhFFMX0IYg90c6sKB/W/50DV53PyPGiuV0iuRDRuqgq0LUPjiV3++TtfLDpjPEgAuEFFjMyXSwJIDsG+qABAeh08EYlUiViFWGFjpQOwjYHNMVZm1nisoT2v2u+P5HmAIOr4BoMA7xcAox8U1IubSRn4QQ8GX80UmrsY4zI/jzjiEMQAeTlg3HTLGE7EIYgB8nIQE3OpA7dSsrRzqYMMAyVvL7hZBojpDXEaxQB5OYiJ+RnngbkfuOl/WSOxj+XnM/gj1qfdKx3e7D0w0vQLfh6fiuugAJhbmiGSUhOktCefVmrVZw0fTn/NE6fR4YACHbEo90Tz8e0XD29Xf0Y+avfp5wF9tdnUo9tc+H6z55r7OgDw535o4j4Rl7IYwOkFP6Wus/ddmQchK2UeAPwCnvCXRT/tn38AAAAASUVORK5CYII="
+    },
+    "username": "JumboDS64",
+    "avatar": "JumboDS641388709537"
+  },
+  {
+    "__v": 0,
+    "_id": "52d0cae16be20acb1600006d",
+    "inventory": {
+      "bit": {
+        "1": 74,
+        "2": 18,
+        "3": 26,
+        "4": 36,
+        "5": 0,
+        "6": 6,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 2, "2": 0, "3": 2 },
+      "ghost": { "1": 45 },
+      "lantern": { "1": 1 },
+      "null": { "1": 114 },
+      "sign": { "1": 0 },
+      "youtube": { "1": 2 }
+    },
+    "username": "poombo2003",
+    "avatar": "poombo20031389410491"
+  },
+  {
+    "username": "Munchkingman",
+    "_id": "52e84467ad6a118a4a00000e",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Munchkingman1390953505"
+  },
+  {
+    "username": "AspenGuardian",
+    "_id": "52f04d9d70950cdc1b00002a",
+    "inventory": {
+      "youtube": { "1": 0 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 0, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 19,
+        "2": 13,
+        "3": 6,
+        "4": 30,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 13
+      }
+    },
+    "__v": 0,
+    "avatar": "AspenGuardian1391480055"
+  },
+  {
+    "username": "Frootaloo",
+    "_id": "52f5cc2020f67f351e000015",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Frootaloo1391892499"
+  },
+  {
+    "username": "super blooper",
+    "_id": "52f80f6245939da520000053",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "cool_man5671339341877"
+  },
+  {
+    "username": "Flint Cragley",
+    "_id": "52fa914345939da520000071",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 1,
+        "2": 0,
+        "3": 6,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "52fa8fe8332ea1392152858"
+  },
+  {
+    "username": "Popple",
+    "_id": "530af6236d88134f5100007f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4aa88f4b75e711253403352"
+  },
+  {
+    "username": "MM",
+    "_id": "530b2819621c65642d000068",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "MeowMixer1426368697"
+  },
+  {
+    "username": "Benjamin",
+    "_id": "5310f79d621c65642d000081",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 6,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "username": "Theo",
+    "_id": "531fa9ff8955b2593700008b",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 69,
+        "2": 2,
+        "3": 15,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "username": "Ultimario",
+    "_id": "532a530e8955b25937000094",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Ultimario1395284101"
+  },
+  {
+    "username": "sunglasses",
+    "_id": "533639969c39179c7a00006f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "sunglasses241344630542"
+  },
+  {
+    "username": "Smaug",
+    "_id": "538585a841f0009d3d000077",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Smaug1313121608"
+  },
+  {
+    "username": "Telly Vision",
+    "_id": "5387bae441f0009d3d00007f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "5387b943e40ac1401404014"
+  },
+  {
+    "username": "F337",
+    "_id": "53af7fef2e5555d3700000a2",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "53af7f540bdc51404010409"
+  },
+  {
+    "username": "miko",
+    "_id": "53b086972e5555d3700000a3",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 7,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "mikothegamer1404078007"
+  },
+  {
+    "username": "Hunter",
+    "_id": "53b357522e5555d3700000ab",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "53b3554e9f63f1404262120"
+  },
+  {
+    "username": "FireYoshi",
+    "_id": "53b382582e5555d3700000b0",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 8,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "FireYoshi3601404271847"
+  },
+  {
+    "username": "TeleportPass",
+    "_id": "53b841db2e5555d3700000b6",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "TeleportPass1405898986"
+  },
+  {
+    "username": "Reddeh",
+    "_id": "53b8f6fd2e5555d3700000bb",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 5,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 8
+      }
+    },
+    "__v": 0,
+    "avatar": "Reddeh1404630744"
+  },
+  {
+    "username": "Dimentio",
+    "_id": "53b9af252e5555d3700000bf",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 7,
+        "2": 0,
+        "3": 7,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Magician1404675880"
+  },
+  {
+    "username": "Francine",
+    "_id": "53c6b0312e5555d3700000cf",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 7,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Francine1420261945"
+  },
+  {
+    "username": "SuperPaper",
+    "_id": "53cef9402e5555d3700000d1",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 0, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 10,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    "__v": 0,
+    "avatar": "SuperPaper1406119835"
+  },
+  {
+    "username": "Dimentio4life",
+    "_id": "53d1f4272e5555d3700000da",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 2 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 13,
+        "2": 0,
+        "3": 17,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "__v": 0,
+    "avatar": "53d1f0da761a51406268252"
+  },
+  {
+    "username": "Lucas",
+    "_id": "53e27bd62e5555d3700000e8",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "53e27aaf0a1291407351704"
+  },
+  {
+    "username": "Squirps_2-0",
+    "_id": "53f037c72e5555d3700000ee",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Squrips1408251386"
+  },
+  {
+    "username": "Demented N",
+    "_id": "540ca5478a0726ba6100007c",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Demented_N1410476861"
+  },
+  {
+    "username": "Yagami",
+    "_id": "541e47518a0726ba6100007f",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4acad1aebd23f1313459717"
+  },
+  {
+    "username": "Paul",
+    "_id": "547b41898a0726ba610000a4",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Breaded1298939430"
+  },
+  {
+    "username": "Alex",
+    "_id": "5487a7d48a0726ba610000a5",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "PyroHollow1317944330"
+  },
+  {
+    "username": "BenjaminCrafter",
+    "_id": "548b905d8a0726ba610000a6",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 11,
+        "2": 0,
+        "3": 10,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": ""
+  },
+  {
+    "username": "Hades 2.0",
+    "_id": "54b0aec98a0726ba610000ad",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Hades1420866361"
+  },
+  {
+    "__v": 0,
+    "_id": "54bc64008a0726ba610000ae",
+    "inventory": {
+      "bit": {
+        "1": 56,
+        "2": 87,
+        "3": 5,
+        "4": 1,
+        "5": 27,
+        "6": 15,
+        "7": 1,
+        "8": 0,
+        "9": 17
+      },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 3, "2": 0, "3": 0 },
+      "ghost": { "1": 62 },
+      "lantern": { "1": 2 },
+      "sign": { "1": 0 },
+      "youtube": { "1": 1 }
+    },
+    "username": "Superpaperloser",
+    "avatar": "Superpaperloser1421632587"
+  },
+  {
+    "username": "Video The Gamer",
+    "_id": "54c3abe98a0726ba610000c0",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 0, "2": 1, "3": 0 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 0 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "54c336d4899591422080352"
+  },
+  {
+    "username": "FRACKTAIL",
+    "_id": "54c6e2938a0726ba610000cb",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "IAMERRORFracktail1422314813"
+  },
+  {
+    "username": "NerrBot",
+    "_id": "54ce182a8a0726ba610000cc",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "NerrBot1410543824"
+  },
+  {
+    "username": "Lemmy Koopa",
+    "_id": "54f239d38a0726ba610000ce",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "pixibird-duh1296418405"
+  },
+  {
+    "username": "william",
+    "_id": "54ff709d45d242345b000080",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "william1426796881"
+  },
+  {
+    "username": "lain",
+    "_id": "551749cc45d242345b000094",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 8,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "_lain1427588958"
+  },
+  {
+    "username": "Goomba",
+    "_id": "55f5f44045d242345b00009d",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "4aad6c401c5c01257993610"
+  },
+  {
+    "username": "Slappy",
+    "_id": "56d274ecd7cfed5342000086",
+    "inventory": {
+      "youtube": { "1": 1 },
+      "bomb": { "1": 0 },
+      "door": { "1": 1, "2": 1, "3": 1 },
+      "lantern": { "1": 1 },
+      "sign": { "1": 1 },
+      "block": { "1": 1, "2": 1, "3": 1, "4": 1 },
+      "bit": {
+        "1": 9,
+        "2": 0,
+        "3": 9,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 9
+      }
+    },
+    "__v": 0,
+    "avatar": "Slappy1559446949"
+  }
+]

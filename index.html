@@ -1,0 +1,759 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>betalands</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>    
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="./vendor/jquery-ui-1.8.21.custom.min.js"></script>
+  <script src="./vendor/bootbox.min.js"></script>
+  <link rel='stylesheet' href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css' />
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    window.ImpactPrefix = './';
+  </script>
+  <script type="text/javascript" src="./lib/impact/impact.js"></script>
+  <script type="text/javascript" src="./lib/game/main.js"></script>
+  <script type="text/javascript" src="./server-mock.js"></script>
+  <script type="text/javascript" src="./web.js"></script>
+</head>
+
+<body>
+
+  <div id="warpModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="warpModalLabel">Warp to a Level</h3>
+    </div>
+    <div class="modal-body">
+      Levels:
+      <ul id="alllevels" class="nav nav-tabs nav-stacked">
+      </ul>
+      Lost Levels:
+      <ul id="lostlevels" class="nav nav-tabs nav-stacked">
+      </ul>
+      Rooms:
+      <ul id="roomlevels" class="nav nav-tabs nav-stacked">
+      </ul>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+  <div id="userSelectModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="userSelectModalLabel">Load as User</h3>
+    </div>
+    <div class="modal-body">
+      <ul id="users" class="nav nav-tabs nav-stacked">
+      </ul>
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+  <div id="smelterModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="warpModalLabel">Bit Smelter</h3>
+    </div>
+    <div class="modal-body">
+
+      <table style="width:100%">
+        <tbody>
+          <tr>
+            <td width="100%">Ingredients</td>
+            <td>Result</td>
+            <td>Times</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="pull-left">
+                <div class="bit bit1"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit2"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit3"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit4"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit5"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit6"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit7"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit8"><span></span></div>
+              </div>
+              <div class="pull-left">
+                <div class="bit bit9"><span></span></div>
+              </div>
+            </td>
+            <td>
+              <div class="bit pixel"><span></span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="pixel" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bit bit3"><span></span></div>
+              <div class="bit bit4"><span></span></div>
+            </td>
+            <td>
+              <div class="bit bit7"><span>2</span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="7" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bit bit2"><span></span></div>
+              <div class="bit bit4"><span></span></div>
+            </td>
+            <td>
+              <div class="bit bit8"><span>2</span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="8" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bit bit2"><span></span></div>
+              <div class="bit bit3"><span></span></div>
+            </td>
+            <td>
+              <div class="bit bit9"><span>2</span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="9" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bit bit2"><span></span></div>
+              <div class="bit bit3"><span></span></div>
+              <div class="bit bit4"><span></span></div>
+            </td>
+            <td>
+              <div class="bit bit5"><span>3</span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="5" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bit bit7"><span></span></div>
+              <div class="bit bit8"><span></span></div>
+              <div class="bit bit9"><span></span></div>
+            </td>
+            <td>
+              <div class="bit bit6"><span>3</span></div>
+            </td>
+            <td><input type="text" style="width:35px"></td>
+            <td>
+              <div class="smeltBtn btn" data-val="6" data-dismiss="modal">SMELT</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="modal-footer">
+    </div>
+  </div>
+
+  <div id="helpModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="helpModalLabel">Help</h3>
+    </div>
+    <div class="modal-body">
+      <b>WASD or arrow keys</b> = move<br>
+      <b>Up</b> = enter doors<br>
+      <b>Space or Enter</b> = Action (read signs, punch)<br>
+      <b>Click</b> = place items<br>
+      <b>Bits</b> found naturally underground:<br>
+      <div class="bit bit1"></div>
+      <div class="bit bit2"></div>
+      <div class="bit bit4"></div>
+      <br>
+      <div class="bit bit3"></div> GREEN bits are special, you can jump up through them.
+
+      <br><br>
+      <b>Bits</b> that must be created:<br>
+      <div class="bit bit5"></div>
+      <div class="bit bit6"></div>
+      <div class="bit bit7"></div>
+      <div class="bit bit8"></div>
+      <div class="bit bit9"></div>
+      <br><br>
+      <b>Tiles:</b> choose from tiles in a set on the right to place background blocks.<br>
+      Think of it like wallpaper, since it layers on top of bits.<br>
+      <div class="animframes" style="float:none;">
+        <div class="animframe animframe1 out" style="display:inline-block;"></div>
+        <div class="animframe animframe2 out" style="display:inline-block;"></div>
+        <div class="animframe animframe3 out" style="display:inline-block;"></div>
+        <div class="animframe animframe5 out" style="display:inline-block;"></div>
+        <div class="animframe animframe6 out" style="display:inline-block;"></div>
+      </div>
+      <br>
+      <div class="animframe animframe0 eraser" data-original-title="" title=""></div> <b>Block Eraser:</b> removes
+      blocks, uncovering any bits behind.<br>
+      <br><br>
+      <div class="switchblock switchblock1"></div><b>Switch Block:</b> swaps white and black bits<br>
+      <div class="door door1"></div><b>Door 1:</b> creates your own room<br>
+      <div class="door door2"></div><b>Door 2:</b> creates your own game level<br>
+      <div class="door door3"></div><b>Door 3:</b> creates your own vertical game level<br>
+      <div class="goomba goomba1"></div><b>Goomba:</b> enemy you can place in your own areas<br>
+      <div class="coin coin1"></div><b>Coin:</b> to collect in your levels.<br>
+      <img src="./media/youtube.png" height="32" style="height:32px;vertical-align:top">
+      <div class="youtube youtube1"></div><b>YouTube TV:</b> plays a youtube video or playlist. It stays in sync with
+      the owner.<br>
+      <img src="./media/makerbot.png" height="32" style="height:32px;vertical-align:top"><b>MakerMeow:</b>
+      insert bits to create new items.<br>
+      <b>NOTE</b> - some items described here may function differently inside user-levels.
+    </div>
+    <div class="modal-footer">
+      For the latest info visit <a href="https://digibutter.nerr.biz">https://digibutter.nerr.biz</a>
+    </div>
+  </div>
+
+  <div id="makerModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="makerModalLabel"><img src="./media/makerbot.png"> MakerMeow recipes</h3>
+    </div>
+    <div class="modal-body">
+      <span class="dirt">D</span> = Dirt
+      <span class="red">R</span> = Red
+      <span class="green">G</span> = Green
+      <span class="blue">B</span> = Blue
+      <span class="white">W</span> = White
+      <span class="black">B</span> = Black
+      <span class="cyan">C</span> = Cyan
+      <span class="magenta">M</span> = Magenta
+      <span class="yellow">Y</span> = Yellow
+      <br>
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="bit bit5"></div>
+                    </td>
+                    <td>
+                      <span class="red">R</span><span class="green">G</span><span class="blue">B</span><br>
+                      <span class="red">R</span><span class="green">G</span><span class="blue">B</span><br>
+                      <span class="red">R</span><span class="green">G</span><span class="blue">B</span>
+                    </td>
+                    <td>
+                      <div class="bit bit6"></div>
+                    </td>
+                    <td>
+                      <span class="cyan">C</span><span class="magenta">M</span><span class="yellow">Y</span><br>
+                      <span class="cyan">C</span><span class="magenta">M</span><span class="yellow">Y</span><br>
+                      <span class="cyan">C</span><span class="magenta">M</span><span class="yellow">Y</span>
+                    </td>
+                    <td>
+                      <div class="bit bit7"></div>
+                    </td>
+                    <td>
+                      <span class="dirt">D</span><span class="green">G</span><span class="blue">B</span><br>
+                      <span class="dirt">D</span><span class="green">G</span><span class="blue">B</span><br>
+                      <span class="dirt">D</span><span class="green">G</span><span class="blue">B</span>
+                    </td>
+                    <td>
+                      <div class="bit bit8"></div>
+                    </td>
+                    <td>
+                      <span class="red">R</span><span class="dirt">D</span><span class="blue">B</span><br>
+                      <span class="red">R</span><span class="dirt">D</span><span class="blue">B</span><br>
+                      <span class="red">R</span><span class="dirt">D</span><span class="blue">B</span>
+                    </td>
+                    <td>
+                      <div class="bit bit9"></div>
+                    </td>
+                    <td>
+                      <span class="red">R</span><span class="green">G</span><span class="dirt">D</span><br>
+                      <span class="red">R</span><span class="green">G</span><span class="dirt">D</span><br>
+                      <span class="red">R</span><span class="green">G</span><span class="dirt">D</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!--
+        <tr><td colspan=2>
+          <table><tr>
+            <td><div class="block block1"></div></td><td>
+            <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+            <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+            <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span></td>
+            <td><div class="block block2"></div></td><td>
+            <span class="green">G</span><span class="green">G</span><span class="green">G</span><br>
+            <span class="green">G</span><span class="green">G</span><span class="green">G</span><br>
+            <span class="green">G</span><span class="green">G</span><span class="green">G</span></td>
+            <td><div class="block block3"></div></td><td>
+            <span class="green">G</span><span class="green">G</span><span class="green">G</span><br>
+            <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+            <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span></td>
+            <td><div class="block block4"></div></td><td>
+            <span class="blue">B</span><span class="blue">B</span><span class="blue">B</span><br>
+            <span class="blue">B</span><span class="blue">B</span><span class="blue">B</span><br>
+            <span class="blue">B</span><span class="blue">B</span><span class="blue">B</span></td>
+          </tr></table>
+        </td></tr>
+        -->
+          <tr>
+            <td width="32">
+              <div class="sign sign1"></div>
+            </td>
+            <td>
+              <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+              <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+              <span class="green">G</span><span class="dirt">D</span><span class="green">G</span>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="door door1"></div>
+                    </td>
+                    <td>
+                      <span class="red">R</span><span class="red">R</span><span class="dirt">D</span><br>
+                      <span class="red">R</span><span class="red">R</span><span class="dirt">D</span><br>
+                      <span class="red">R</span><span class="red">R</span><span class="dirt">D</span>
+                    </td>
+                    <td>
+                      <div class="door door2"></div>
+                    </td>
+                    <td>
+                      <span class="green">G</span><span class="green">G</span><span class="dirt">D</span><br>
+                      <span class="green">G</span><span class="green">G</span><span class="dirt">D</span><br>
+                      <span class="green">G</span><span class="green">G</span><span class="dirt">D</span>
+                    </td>
+                    <td>
+                      <div class="door door3"></div>
+                    </td>
+                    <td>
+                      <span class="blue">B</span><span class="blue">B</span><span class="dirt">D</span><br>
+                      <span class="blue">B</span><span class="blue">B</span><span class="dirt">D</span><br>
+                      <span class="blue">B</span><span class="blue">B</span><span class="dirt">D</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="32">
+              <div class="goomba goomba1"></div>
+            </td>
+            <td>
+              <span class="dirt">D</span><span class="red">R</span><span class="dirt">D</span><br>
+              <span class="white">W</span><span class="red">R</span><span class="white">W</span><br>
+              <span class="red">R</span><span class="red">R</span><span class="red">R</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><img width="32" src="./media/youtube.png"></div>
+            </td>
+            <td>
+              <span class="black">B</span><span class="black">B</span><span class="black">B</span><br>
+              <span class="black">B</span><span class="black">B</span><span class="black">B</span><br>
+              <span class="red">R</span><span class="red">R</span><span class="red">R</span>
+            </td>
+          </tr>
+          <tr>
+            <td width="32">
+              <div class="switchblock switchblock1"></div>
+            </td>
+            <td>
+              <span class="dirt">D</span><span class="black">B</span><span class="dirt">D</span><br>
+              <span class="dirt">D</span><span class="black">B</span><span class="dirt">D</span><br>
+              <span class="dirt">D</span><span class="white">W</span><span class="dirt">D</span>
+            </td>
+          </tr>
+          <tr>
+            <td width="32">
+              <div class="coin coin1"></div>
+            </td>
+            <td>
+              <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span><br>
+              <span class="dirt">D</span><span class="yellow">Y</span><span class="dirt">D</span><br>
+              <span class="dirt">D</span><span class="dirt">D</span><span class="dirt">D</span>
+            </td>
+          </tr>
+          <tr>
+            <td><span style="font-size:8px">Lantern</span></td>
+            <td>
+              <span class="dirt">D</span><span class="green">G</span><span class="dirt">D</span><br>
+              <span class="green">G</span><span class="yellow">Y</span><span class="green">G</span><br>
+              <span class="green">G</span><span class="green">G</span><span class="green">G</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="equipModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="equipModalLabel">Equip</h3>
+    </div>
+    <div class="modal-body">
+      Body:
+      <div class="btn defaultbody" data-dismiss="modal" data-val="defaultbody" data-toggle="tooltip" title="Default"
+        data-placement="top">Default</div>
+      <div id="bodyequiparea" class="equips">
+
+      </div>
+      <br>
+      Head:
+      <div id="headequiparea" class="equips">
+      </div>
+      <br>
+      Gun:
+      <div id="gunsarea" class="guns">
+        <div class="gun gun0 btn" data-dismiss="modal" data-val="0" data-toggle="tooltip" title="No Gun"
+          data-placement="top">None</div>
+        <div class="gun gun1 btn" data-dismiss="modal" data-val="1" data-toggle="tooltip" title="Blaster"
+          data-placement="top">Blaster</div>
+        <div class="gun gun2 btn" data-dismiss="modal" data-val="2" data-toggle="tooltip" title="Cracker Launcher"
+          data-placement="top">Cracker Launcher</div>
+      </div>
+      <br>
+      Other:
+      <div id="otherequiparea" class="equips">
+        <div class="equip tiptron btn hide" style="width:100px" data-dismiss="modal" data-val="tiptron"
+          data-toggle="tooltip" title="Tiptron" data-placement="top">Tiptron</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="customItemsModal" class="modal hide fade" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="customModalLabel">Your Custom Item <span style="font-size:small">(Only usable inside levels)</span></h3>
+    </div>
+    <div class="modal-body">
+      <div>Select an Item to Edit or
+        <a href="#newItemModal" role="button" class="btn btn-mini" data-toggle="modal" data-dismiss="modal"
+          id="newItemBtn">NEW ITEM</a>
+        <a href="#newBodyModal" role="button" class="btn btn-mini" data-toggle="modal" data-dismiss="modal"
+          id="newBodyBtn">NEW BODY</a>
+        <a href="#newHeadModal" role="button" class="btn btn-mini" data-toggle="modal" data-dismiss="modal"
+          id="newHeadBtn">NEW HEAD</a>
+        <table id="customItemsList">
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="newItemModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="newItemModalLabel">New Item</h3>
+    </div>
+    <div class="modal-body">
+      <form class="form-horizontal" id="newItemForm">
+        <fieldset>
+
+          <input id="itemid" class="itemid" name="itemid" type="hidden">
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="name">Item Name</label>
+            <div class="controls">
+              <input id="name" name="name" type="text" placeholder="required" required="">
+            </div>
+          </div>
+
+          <!-- Frames of Animation -->
+          <div class="control-group">
+            <label class="control-label" for="frames">Frames of Animation</label>
+            <div class="controls">
+              <select id="frames" name="frames" class="input-medium">
+                <option value="1">1 (no animation)</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Size -->
+          <div class="control-group">
+            <label class="control-label" for="frames">Width</label>
+            <div class="controls">
+              <select name="width" class="input-medium">
+                <option value="16">16</option>
+                <option value="8">8</option>
+                <option value="24">24</option>
+                <option value="32">32</option>
+              </select>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="frames">Height</label>
+            <div class="controls">
+              <select name="height" class="input-medium">
+                <option value="16">16</option>
+                <option value="8">8</option>
+                <option value="24">24</option>
+                <option value="32">32</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="btn itemsave" data-dismiss="modal" onclick="$(this).parents('form').submit();">Submit
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
+  </div>
+  <div id="newBodyModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="newItemModalLabel">New Body</h3>
+    </div>
+    <div class="modal-body">
+      <form class="form-horizontal" id="newBodyForm">
+        <fieldset>
+
+          <input id="itemid" class="itemid" name="itemid" type="hidden">
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="name">Body Name</label>
+            <div class="controls">
+              <input id="name" name="name" type="text" placeholder="required" required="">
+            </div>
+          </div>
+
+          <div class="btn bodysave" data-dismiss="modal" onclick="$(this).parents('form').submit();">Submit
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <div id="newHeadModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="newItemModalLabel">New Head</h3>
+    </div>
+    <div class="modal-body">
+      <form class="form-horizontal" id="newHeadForm">
+        <fieldset>
+
+          <input id="itemid" class="itemid" name="itemid" type="hidden">
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="name">Head Name</label>
+            <div class="controls">
+              <input id="name" name="name" type="text" placeholder="required" required="">
+            </div>
+          </div>
+
+          <div class="btn headsave" data-dismiss="modal" onclick="$(this).parents('form').submit();">Submit
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <div id="levelsModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="customModalLabel">Your Levels</h3>
+    </div>
+    <div class="modal-body">
+      <div>Select an Level to Visit or
+        <a href="#newLevelModal" role="button" class="btn btn-mini" data-toggle="modal" data-dismiss="modal"
+          id="newLevelBtn">CREATE NEW
+          LEVEL</a>
+        <table id="levelsList">
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="newLevelModal" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 id="newLevelModalLabel">New Level</h3>
+    </div>
+    <div class="modal-body">
+      <form class="form-horizontal" id="newLevelForm">
+        <fieldset>
+
+          <div class="control-group">
+            <label class="control-label" for="name">Level Title</label>
+            <div class="controls">
+              <input name="title" type="text">
+            </div>
+          </div>
+          Level Style
+          <label class="radio">
+            <input type="radio" name="leveltype" value="2" checked="">
+            Horizontal
+          </label>
+          <label class="radio">
+            <input type="radio" name="leveltype" value="3" checked="">
+            Vertical
+          </label>
+          <label class="radio">
+            <input type="radio" name="leveltype" value="" checked="">
+            Custom:
+          </label>
+          <div class="control-group">
+            <label class="control-label" for="name">Level Width in Background Tiles</label>
+            <div class="controls">
+              <input name="width" type="text">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="name">Level Height in Background Tiles</label>
+            <div class="controls">
+              <input name="height" type="text">
+            </div>
+          </div>
+
+          <div class="btn levelsave" data-dismiss="modal">Submit</div>
+        </fieldset>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="span12" id="usersarea">
+        <label id="userlabel">Player</label>
+        <a href="#userSelectModal" role="button" class="btn btn-mini" data-toggle="modal" id="usersOnlineBtn">Users</a>
+        <a href="#warpModal" role="button" class="btn btn-mini" data-toggle="modal" id="warpBtn">Levels</a>
+        <a href="#smelterModal" role="button" class="btn btn-mini hide" data-toggle="modal" id="smelterBtn">Smelter</a>
+        <a href="#helpModal" role="button" class="btn btn-mini" data-toggle="modal" id="helpBtn">?</a>
+        <a href="#makerModal" role="button" class="btn btn-mini" data-toggle="modal" id="makerBtn"><img
+            style="height:16px" src="./media/makerbot.png"></a>
+        <button class="btn btn-mini" id="mutebutton">MUTE</button>
+        <button class="btn btn-mini" id="abortbutton">ABORT</button>
+        <button class="btn btn-mini" style="display:none;" id="retrybutton">RETRY</button>
+        <a href="#customItemsModal" role="button" class="btn btn-mini" data-toggle="modal" id="customItemsBtn">EDIT
+          ITEMS</a>
+        <a href="#levelsModal" role="button" class="btn btn-mini hide" data-toggle="modal" id="levelsBtn">LEVELS</a>
+        <button class="btn btn-mini" id="resetbutton">CLEAR WORLD</button>
+        <button class="btn btn-mini" id="getlink">SET URL</button>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12" id="conversationarea">
+
+
+        <div id="gamedivarea">
+          <table>
+            <tbody style="vertical-align:top">
+              <tr>
+                <td>
+                  <div id="canvasarea">
+                    <canvas id="canvas"></canvas>
+                    <div id="youtube"></div>
+                    <!--<div id="youtube"><div id="youtubeplayer">YOUTUBE</div>-->
+                    <!--<iframe width="80" height="45" src="https://www.youtube.com/embed/Zhawgd0REhA?feature=player_embedded&controls=0&enablejsapi=1&modestbranding=1&rel=0&showinfo=0&autohide=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>-->
+                  </div>
+                </td>
+                <td>
+                  <div id="blockarea" class="animframes">
+                    <div class="animframe animframe0 eraser" data-val="0" data-toggle="tooltip" title=""
+                      data-placement="left" data-original-title="Block Eraser"></div>
+                  </div>
+                  <div id="tileoptions" class="hide">
+                    <label class="checkbox"><input type="checkbox" name="front" class="framelayer">FRONT</label>
+                    <label class="checkbox"><input type="checkbox" name="flip" class="frameflip">FLIP</label>
+                    <label class="checkbox"><input type="checkbox" name="flop" class="frameflop">FLOP</label>
+                  </div>
+                  <div id="frameoptions" class="hide">
+                    <button class="btn btn-mini framesave">Save</button>
+                    <button class="btn btn-mini frameedit" id="editorbutton">Edit</button>
+                    <button class="btn btn-mini framecopy hide">Copy</button>
+                    <button class="btn btn-mini framepaste hide">Paste</button>
+                    <button class="btn btn-mini frameclear hide">Clear</button>
+                    <button class="btn btn-mini frameshift hide">Shift</button>
+                    <button class="btn btn-mini hexcolor hide">HEX</button>
+                    <button class="btn btn-mini frameadd hide">Add</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="inventory-actions">
+            <div class="move move1" data-toggle="tooltip" title="Touch-Move" data-name="move" data-val="1"><span></span>
+            </div>
+            <div class="hand hand1" data-toggle="tooltip" title="Pick-Up Items" data-name="hand" data-val="1">
+              <span></span>
+            </div>
+            <a href="#equipModal" role="button" class="btn btn-mini" data-toggle="modal" id="equipBtn">Equip</a>
+          </div>
+          <div class="btn-group" style="display:inline-block">
+            <button class="btn btn-mini invtoggle" data-val="invbits">Bits</button>
+            <button class="btn btn-mini invtoggle" data-val="invitems">Items</button>
+            <button class="btn btn-mini invtoggle" data-val="invcustom">Custom</button>
+            <button class="btn btn-mini invtoggle" data-val="invtiles">Tiles</button>
+          </div>
+          <div class="inventory"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12" id="youtubeplayerarea">
+        <div id="youtubeplayer">YT</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // load youtube player
+
+    //var params = { allowScriptAccess: "always", controls: 0, modestbranding: 1, rel: 0, showinfo: 0, autohide: 1, iv_load_policy: 3 };
+    //controls=0&enablejsapi=1&modestbranding=1&rel=0&showinfo=0&autohide=1&iv_load_policy=3
+    //var atts = { id: "youtubeplayer" };
+    //swfobject.embedSWF("http://www.youtube.com/apiplayer?enablejsapi=1&version=3",
+    //                   "youtubeplayer", "80", "45", "8", null, null, params, atts);
+    var ytplayer;
+    var ytplayerready = false;
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+
+</body>
+
+</html>
